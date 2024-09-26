@@ -25,7 +25,7 @@ def display(stdscr, target, current, wpm=0):
         stdscr.addstr(0 ,i ,char, color)
 
 def wpm_test(stdscr):
-    target_text = "This is a sample text for this typing test."
+    target_text = "This is a sample text for this typing test and this is practice target."
     current_text = []
     wpm = 0
     start_time = time.time()
